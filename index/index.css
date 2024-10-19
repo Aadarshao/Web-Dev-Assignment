@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kadwa:wght@400;700&family=Lato:wght@300&family=Poppins:wght@200&family=Tsukimi+Rounded:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins', sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+.nav ul{
+    font-size: 1em;
+    font-weight: normal;
+}
+.header{
+    background: linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
+    width: 100%;
+    height: 70vh;
+
+}
+.img_1{
+    margin: 0 5%;
+}
+.Theme{
+    background: linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
+    width: 100%;
+    height: 30%;
+}
+.Tres{
+    font-size: 3em;
+    font-weight: lighter;
+}
+.middle{
+    font-size: 1em;
+    font-weight: bold;
+    color: #09376B;
+}
+.bg-img1{
+    height:90vh; 
+    width: 85%; 
+    margin:0 8%;
+}
+.objective{
+    margin: 5% 0 0 10%;
+    font-weight: bold;
+    color: #09376B;
+}
+.theme-title{
+    font-size: 2.5em;
+    color: #09376B;
+}
+.obj-row{
+    width: 100%;
+}
+.border{
+    width: 100vw;
+    min-height: 20vh;
+    border-radius: 15px;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+.objfont{
+    overflow: hidden;
+    color: #298CFF;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.objfontp{
+    font-size: 1em;
+    font-weight: normal;
+    width: 90%;
+}
+.Ideate_1{
+    margin: 2% 10%;
+}
+
+.titleT{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 2% 0;
+    color:#298CFF;
+    ;
+}
+.img-t{
+    font-size:1.5em;
+    font-weight: bold;
+    margin: 1% 0;
+    color:#09376B;
+}
+.img-aa{
+    width: 90%;
+    height: 100%;
+}
+.img-p{
+    width: 90%;
+    font-size: 1.2em;
+    font-weight: normal;
+    color:#74748A ;
+}
+.footer{
+    background-color:#F2F4FF;
+    width: 100%;
+    height: 10vh;
+}
+.footer-t{
+    padding-top:2% ;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 32px;
+}
+
+.sizeK{
+    margin:5% 10% 0 10%;
+}
+.outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+}
+.inner{
+    background:linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
+    width:50%;
+    height:90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    border-radius: 25px;
+}
+.weatherimg{
+    margin-left:40% ;
+    margin-top: 10%;
+}
+.home{
+    margin: auto;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.images_1{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+.abt-text{
+
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    width:50%;
+
+}
+.overview-h {
+    /* background-color: red; */
+    width: 100%;
+    height:90%;
+    padding: 5% 0;
+}
+
+.counseling{
+    margin: 5% 10% 2% 8%;
+}
+.Articles .card{
+    width: 100%;
+    height: 95%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 100%;
+    height: 40vh;
+}
+.suport .card .head{
+    height: 20vh;
+    
+}
+.suport .card .head h3{
+    color: #09376B;
+    
+}
+.Recommendation .card{
+    width: 100%;
+    height: 95%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main-img{
+        width: 100%;
+        height: 10vh;
+    }
+    .Tres{
+        font-size: 30px;
+        height: 40%;
+    }
+    .middle{
+        font-size:20px;
+    }
+    .border{
+        height: 10%;
+    }
+}
+.bargraph{
+    width:100%; 
+    height: 50Vh;
+}
+@media screen and (max-width:500px) {
+    .bg-img1{
+    
+        height: 50vh;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .inner{
+        width: 90%;
+
+}
+}
+@media screen and (max-width:768px) {
+    .innerfont{
+        margin-left:30% ;
+    }
+}
+@media screen and (max-width:900px) {
+    .home{
+        width: 100%;
+    }
+    .abt-text,.images_1{
+    
+        width: 100%;
+        float: none;
+        margin-top: 5%;
+    }
+    .abt-text{
+        margin:2% 10%;
+    }
+    .bargraph{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .showcase:nth-child(2) .abt-text {
+        order: -1;
+    }
+
+    .showcase:nth-child(2) .images_1 {
+        order: -2;
+    }
+    
+}

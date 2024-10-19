@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kadwa:wght@400;700&family=Lato:wght@300&family=Poppins:wght@200&family=Tsukimi+Rounded:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins', sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+
+.mainform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 100%;
+
+}
+.mindheroform{
+    width: 100%;
+}
+.mindheroform label{  
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #09376B;
+    align-items: center;
+    text-align: center;
+}
+.mindheroform input{
+    width: 100%;
+    height: 40px;
+    margin: 2% 0;
+    padding: 0 5%;
+    border-radius: 5px;
+    border: 1px solid #09376B;
+}
+
+.getarticle{
+    background-color: var(--secondary-bg);
+    width: 20vw;
+    height: 6vh;
+    /* margin: 1% 0; */
+    padding: 5px;
+    border-radius: 5px;
+}
+.headerArticle{
+    background: linear-gradient(100.3deg, #C5F8FF 0%, #E8FFE8 100%);
+    width: 100%;
+    height:90%;
+    padding-bottom: 5%;
+
+}
+.artilces{
+    margin: 2% 10%;
+
+}
+.card{
+    width: 100%;
+    height: 95%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
